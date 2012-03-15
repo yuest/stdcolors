@@ -1,0 +1,24 @@
+{
+    "name": "stdcolors"
+  , "version": "0.0.1"
+  , "author": "Yuest Wang <yuestwang@gmail.com> (http://yue.st)"
+  , "description": "usage: stdcolors [your command]"
+  , "keyword": ["cli", "stdout", "stderr"]
+  , "homepage": "http://github.com/yuest/stdcolors"
+  , "bug": {
+        "url": "http://github.com/yuest/stdcolors/issues"
+      , "email": "yuestwang@gmail.com"
+    }
+  , "files": ["index.js"]
+  , "preferGlobal": true
+  , "repository" : {
+        "type" : "git"
+      , "url" : "http://github.com/yuest/stdcolors.git"
+    }
+  , "dependencies": {
+        "colors": ">= 0.0.1"
+    }
+  , "bin": {
+        "stdcolors": "./index.js"
+    }
+}
