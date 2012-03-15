@@ -5,7 +5,7 @@ Colorize your stderr to be red just like that:
 
 ##installation
 
-    npm install stdcolors
+    npm install stdcolors -g
 
 ##usage
 
